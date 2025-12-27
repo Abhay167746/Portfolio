@@ -60,8 +60,9 @@ const Navbar = () => {
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
+              <button onClick={() => handleMenuItemClick(item.id)} className="cursor-pointer">
                 {item.label}
+                
               </button>
             </li>
           ))}
