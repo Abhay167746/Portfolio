@@ -21,24 +21,22 @@ const Experience = () => {
       {/* Single Experience Card */}
       <div className="flex justify-center">
         <div className="w-full max-w-3xl p-6 sm:p-10 rounded-2xl border border-white bg-gray-900 shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] transition-transform duration-300 hover:scale-105">
-          
           {/* Header */}
           <div className="flex items-center space-x-6">
-            <div className="w-16 h-16 bg-white rounded-md overflow-hidden">
+            <div className="flex-shrink-0 w-20 h-16 sm:w-18 sm:h-16 bg-white rounded-md overflow-hidden">
               <img
                 src={experience.img}
                 alt={experience.company}
                 className="w-full h-full object-cover"
               />
             </div>
+
             <div>
               <h3 className="text-2xl font-semibold text-white">
                 {experience.role}
               </h3>
               <h4 className="text-gray-300">{experience.company}</h4>
-              <p className="text-sm text-gray-500 mt-1">
-                {experience.date}
-              </p>
+              <p className="text-sm text-gray-500 mt-1">{experience.date}</p>
             </div>
           </div>
 
