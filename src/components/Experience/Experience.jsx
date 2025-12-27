@@ -31,7 +31,6 @@ const Experience = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-
             <div>
               <h3 className="text-2xl font-semibold text-white">
                 {experience.role}
