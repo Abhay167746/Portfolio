@@ -133,7 +133,7 @@ export const projects = [
     ],
 
     github: "https://github.com/Abhay167746/Music-Academy",
-    webapp: "https://github.com/Abhay167746/Password-Generator",
+    webapp: "https://github.com/Abhay167746/Music-Academy",
   },
    {
     id: 3,
@@ -143,7 +143,7 @@ export const projects = [
     image: Currency,
     tags: ["React JS", "JavaScript", "Tailwind CSS", "REST API"],
     github: "https://github.com/Abhay167746/Currency-Convertor",
-    webapp: "https://github.com/Abhay167746/Currency-Convertor",
+    webapp: "https://currency-convertor-dusky-three.vercel.app/",
   },
   {
     id: 4,
@@ -153,7 +153,7 @@ export const projects = [
     image: Password,
     tags: ["React JS", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/Abhay167746/Password-Generator",
-    webapp: "https://github.com/Abhay167746/Password-Generator",
+    webapp: "https://password-generator-ten-mocha-78.vercel.app/",
   },
     {
     id: 5,
